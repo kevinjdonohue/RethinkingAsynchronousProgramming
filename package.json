@@ -1,0 +1,37 @@
+{
+  "name": "rehinking-asynchronous-programming",
+  "version": "1.0.0",
+  "description":
+    "A repo for notes and examples from the Rethinking Asynchronous Programming course on PluralSight by Kyle Simpson.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-watch": "^3.1.3",
+    "mocha": "^5.0.4"
+  },
+  "scripts": {
+    "test": "mocha --require babel-register test/setup.js 'src/**/*{test, spec}.js'",
+    "test:watch": "npm test -- --watch --watch-extensions js --reporter min",
+    "lint": "esw 'src/**/*.js' 'test/**/*.js'",
+    "lint:watch": "npm run lint -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinjdonohue/RethinkingAsynchronousProgramming.git"
+  },
+  "author": "Kevin J Donohue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinjdonohue/RethinkingAsynchronousProgramming/issues"
+  },
+  "homepage": "https://github.com/kevinjdonohue/RethinkingAsynchronousProgramming#readme"
+}
