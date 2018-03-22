@@ -1,8 +1,7 @@
 {
   "name": "rehinking-asynchronous-programming",
   "version": "1.0.0",
-  "description":
-    "A repo for notes and examples from the Rethinking Asynchronous Programming course on PluralSight by Kyle Simpson.",
+  "description": "A repo for notes and examples from the Rethinking Asynchronous Programming course on PluralSight by Kyle Simpson.",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
